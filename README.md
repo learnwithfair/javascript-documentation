@@ -2,7 +2,7 @@
 
 Thanks for visiting my GitHub account!
 
-<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhLpV7c7ZlQ69IaQrygUzN62Q4kB9dgOiyGaVQV_uglXLZ7DtWKuLBGvrpovgah7RNfo&usqp=CAU" height = "200px" width = "180px"/> **JavaScript** is the most powerful and versatile programming language used in the web. It is a lightweight, cross-platform, single-threaded and interpreted programming language. It is a commonly used programming language to create dynamic and interactive elements in web applications. It is easy to learn, compiled language. [more](https://www.w3schools.com/js/)
+<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhLpV7c7ZlQ69IaQrygUzN62Q4kB9dgOiyGaVQV_uglXLZ7DtWKuLBGvrpovgah7RNfo&usqp=CAU" /> **JavaScript** is the most powerful and versatile programming language used in the web. It is a lightweight, cross-platform, single-threaded and interpreted programming language. It is a commonly used programming language to create dynamic and interactive elements in web applications. It is easy to learn, compiled language. [more](https://www.w3schools.com/js/)
 
 - JavaScript is the world's most popular programming language.
 - JavaScript is the programming language of the Web.
