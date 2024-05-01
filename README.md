@@ -2,12 +2,11 @@
 
 Thanks for visiting my GitHub account!
 
-<img src ="![JS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhLpV7c7ZlQ69IaQrygUzN62Q4kB9dgOiyGaVQV_uglXLZ7DtWKuLBGvrpovgah7RNfo&usqp=CAU)" height = "200px" width = "180px"/> **JavaScript** is the most powerful and versatile programming language used in the web. It is a lightweight, cross-platform, single-threaded and interpreted programming language. It is a commonly used programming language to create dynamic and interactive elements in web applications. It is easy to learn, compiled language. [more](https://www.w3schools.com/js/)
+<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhLpV7c7ZlQ69IaQrygUzN62Q4kB9dgOiyGaVQV_uglXLZ7DtWKuLBGvrpovgah7RNfo&usqp=CAU" height = "200px" width = "180px"/> **JavaScript** is the most powerful and versatile programming language used in the web. It is a lightweight, cross-platform, single-threaded and interpreted programming language. It is a commonly used programming language to create dynamic and interactive elements in web applications. It is easy to learn, compiled language. [more](https://www.w3schools.com/js/)
 
 - JavaScript is the world's most popular programming language.
 - JavaScript is the programming language of the Web.
 - JavaScript is easy to learn.
-
 
 ### [Code-Example](https://github.com/learnwithfair/java-script)
 
@@ -25,7 +24,6 @@ Thanks for visiting my GitHub account!
 | :----------------------------: |
 |            Roadmap             |
 | ![roadmap](images/roadmap.png) |
-
 
 ## Table of Contents
 
@@ -3870,25 +3868,26 @@ Destructuring is a feature in JavaScript that allows you to extract values from 
 
 - JS is a synchronous, blocking, single thread programming Language;
 
-    ```js
-      // synchronous
-      console.log('Task 1');
-      console.log('Task 2');
-      console.log('Task 3');
-      console.log('Task 4');
-      console.log('Task 5');
+  ```js
+  // synchronous
+  console.log("Task 1");
+  console.log("Task 2");
+  console.log("Task 3");
+  console.log("Task 4");
+  console.log("Task 5");
 
-      // blocking
-      console.log('Task 1');
-      console.log('Task 2');
-      const guess = Number(prompt('Enter a guess: '));
-      console.log(guess);
-      console.log('Task 3');
-      console.log('Task 4');
-      console.log('Task 5');
-    ```
+  // blocking
+  console.log("Task 1");
+  console.log("Task 2");
+  const guess = Number(prompt("Enter a guess: "));
+  console.log(guess);
+  console.log("Task 3");
+  console.log("Task 4");
+  console.log("Task 5");
+  ```
 
 - we can use web API and fucntions from browser to make our code asycnhronous
+
   - manage the time using settimeout, setinterval (these functions are not part of js they are just provided by the browser)
   - event driven such as click a mouse then addEvenetListener will handle the event
   - arrival of data using callbacks, promises and async await
@@ -3896,54 +3895,54 @@ Destructuring is a feature in JavaScript that allows you to extract values from 
 - setTimeout(): we can use setTimeout and setInterval traditional function to make our code asynchronous: settimeout(function, duration, param1, param2....). setTimeout runs once after a specific amount of time. the dealys are minimum delay but it can take more time.
 
   ```js
-    console.log('Task 1');
-    console.log('Task 2');
-    setTimeout(() => {
-      console.log('Task 3');
-    }, 2000);
-    console.log('Task 4');
-    console.log('Task 5');
+  console.log("Task 1");
+  console.log("Task 2");
+  setTimeout(() => {
+    console.log("Task 3");
+  }, 2000);
+  console.log("Task 4");
+  console.log("Task 5");
 
   // cleartimeout()
-  console.log('Task 1');
-  console.log('Task 2');
+  console.log("Task 1");
+  console.log("Task 2");
   const timeoutId = setTimeout(() => {
-    console.log('Task 3');
+    console.log("Task 3");
   }, 2000);
   clearTimeout(timeoutId);
-  console.log('Task 4');
-  console.log('Task 5');
-
+  console.log("Task 4");
+  console.log("Task 5");
   ```
 
-- setInterval(): setInterval runs repeatedly after a specific amount of time. 
+- setInterval(): setInterval runs repeatedly after a specific amount of time.
+
   - create a basic digital clock
 
     ```html
-      <p class="watch"></p>
-        <button id="watch-btn">stop the watch</button>
+    <p class="watch"></p>
+    <button id="watch-btn">stop the watch</button>
     ```
 
     ```js
-      const watchElement = document.querySelector('.watch');
+    const watchElement = document.querySelector(".watch");
 
-      const watchButton = document.querySelector('#watch-btn');
-      function updateClock() {
-        const now = new Date();
-        const hours = String(now.getHours()).padStart(2, '0');
-        const minutes = String(now.getMinutes()).padStart(2, '0');
-        const seconds = String(now.getSeconds()).padStart(2, '0');
-        const timeString = `${hours}:${minutes}:${seconds}`;
-        watchElement.textContent = timeString;
-      }
+    const watchButton = document.querySelector("#watch-btn");
+    function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, "0");
+      const minutes = String(now.getMinutes()).padStart(2, "0");
+      const seconds = String(now.getSeconds()).padStart(2, "0");
+      const timeString = `${hours}:${minutes}:${seconds}`;
+      watchElement.textContent = timeString;
+    }
 
-      const intervalId = setInterval(updateClock, 1000); // Update every second
+    const intervalId = setInterval(updateClock, 1000); // Update every second
 
-      const stopWatch = () => {
-        clearInterval(intervalId);
-      };
+    const stopWatch = () => {
+      clearInterval(intervalId);
+    };
 
-      watchButton?.addEventListener('click', stopWatch);
+    watchButton?.addEventListener("click", stopWatch);
     ```
 
 - we can achieve the the task of setInterval using recusrsive setTimeOut
@@ -4200,7 +4199,7 @@ Destructuring is a feature in JavaScript that allows you to extract values from 
 
 #### 2.5.1 higher order function and callback function
 
-- check this site for understanding HOF - https://www.freecodecamp.org/news/higher-order-functions-in-javascript/ 
+- check this site for understanding HOF - https://www.freecodecamp.org/news/higher-order-functions-in-javascript/
 
 [!higher order function](images/hof.png)
 
@@ -4262,14 +4261,13 @@ This is a simple example of how higher-order functions and callback functions wo
 - Asynchornous callback: a callback which is not called immediately or which is responsible to make the delay for executing a function until a further time or event has occured. example fetching data and then run a function. Example: setTimeout(), event handler
 
   ```js
-    const message = (msg) => {
-      console.log(msg);
-    }
-    setTimeout(message, 5000, "hello");
-
+  const message = (msg) => {
+    console.log(msg);
+  };
+  setTimeout(message, 5000, "hello");
   ```
-- callback hell is an issue where innerCallback dependeds on outer callback result. so the solution is promise. it is the most common interview questions.
 
+- callback hell is an issue where innerCallback dependeds on outer callback result. so the solution is promise. it is the most common interview questions.
 
 #### 2.5.2 forEach
 
@@ -4329,7 +4327,6 @@ This is a simple example of how higher-order functions and callback functions wo
 - reduce() higher order function: The reduce function is a higher-order function that applies a function against an accumulator (initial value is 0 for this you can think about let sum=0) and each element in an array (from left to right) to reduce it to a single value. sum of all numbers; when sum think reduce. it executes a reducer function for array element. it returns a single value: the function's accumulated result. it does not execute the function for empty array elements. it does not change the original array.
 
   ```js
-  
   const numbers = [10, 20, 30, 40, 50];
   // first call -> previous 10, current 20
   // 2nd call -> previous 30, current 30
@@ -4348,13 +4345,11 @@ This is a simple example of how higher-order functions and callback functions wo
   );
   console.log(sum); // 15
 
-
   // Another example
   const products = [
-  { id: 1, name: 'x', price: 300 },
-  { id: 2, name: 'y', price: 400 },
-  { id: 3, name: 'z', price: 500 },
-
+    { id: 1, name: "x", price: 300 },
+    { id: 2, name: "y", price: 400 },
+    { id: 3, name: "z", price: 500 },
   ];
 
   const total = products
@@ -4377,10 +4372,10 @@ console.log(allEven); // false
 
 #### 2.5.7 sort
 
-The sort function is a higher-order function that sorts the elements of an array based on a provided comparison function.  The default sort order is ascending, based on converting the elements into strings and comparing their sequences of UTF-16 code units values. This default behavior may not work well for sorting numbers or other types of data.
+The sort function is a higher-order function that sorts the elements of an array based on a provided comparison function. The default sort order is ascending, based on converting the elements into strings and comparing their sequences of UTF-16 code units values. This default behavior may not work well for sorting numbers or other types of data.
 
 ```js
-const names = ['david', 'anisul', 'lisa'];
+const names = ["david", "anisul", "lisa"];
 names.sort();
 console.log(names);
 
@@ -4388,9 +4383,7 @@ const fruits = ["apple", "banana", "cherry", "date"];
 const sortedFruits = fruits.sort((a, b) => a.localeCompare(b)); // for string compare
 console.log(sortedFruits); // ['apple', 'banana', 'cherry', 'date']
 
-
-
-const numbers = [20,10,5,-3,50]; // An array of numbers
+const numbers = [20, 10, 5, -3, 50]; // An array of numbers
 numbers.sort(); // Sort the array in ascending order
 console.log(numbers); //  [-3, 10, 20, 5, 50]
 
@@ -4404,11 +4397,11 @@ console.log(numbers);
 
 ```js
 // complex example version 1
-  const todos = [
-  {id: 3, description: 'learn js', completed: true},
-  {id: 1, description: 'update ts doc', completed: false},
-  {id: 2, description: 'create js video', completed: true},
-]
+const todos = [
+  { id: 3, description: "learn js", completed: true },
+  { id: 1, description: "update ts doc", completed: false },
+  { id: 2, description: "create js video", completed: true },
+];
 // adding sorting functionality
 function compareById(a, b) {
   return b.id - a.id; // descending
@@ -4422,11 +4415,11 @@ function compareByDescription(a, b) {
 const sortTodos = (event) => {
   const sortTerm = event.target.value;
   switch (sortTerm) {
-    case 'id':
+    case "id":
       todos.sort(compareById);
       displayTodos(todos);
       break;
-    case 'text':
+    case "text":
       todos.sort(compareByDescription);
       displayTodos(todos);
       break;
@@ -4435,26 +4428,25 @@ const sortTodos = (event) => {
 
 // complex example version 2
 const todos = [
-    { id: 3, description: 'learn js', completed: true },
-    { id: 1, description: 'update ts doc', completed: false },
-    { id: 2, description: 'create js video', completed: true },
+  { id: 3, description: "learn js", completed: true },
+  { id: 1, description: "update ts doc", completed: false },
+  { id: 2, description: "create js video", completed: true },
 ];
 
 // Comparison functions
 const comparators = {
-    id: (a, b) => b.id - a.id,
-    text: (a, b) => b.description.localeCompare(a.description),
+  id: (a, b) => b.id - a.id,
+  text: (a, b) => b.description.localeCompare(a.description),
 };
 
 // Sort function
 const sortTodos = (event) => {
-    const sortTerm = event.target.value;
-    if (sortTerm in comparators) {
-        todos.sort(comparators[sortTerm]);
-        displayTodos(todos);
-    }
+  const sortTerm = event.target.value;
+  if (sortTerm in comparators) {
+    todos.sort(comparators[sortTerm]);
+    displayTodos(todos);
+  }
 };
-
 ```
 
 [&#8593; Back to Top](#table-of-contents)
@@ -4782,36 +4774,39 @@ These best practices can vary depending on the specific project, team, and codin
 
 ```js
 function Person(name, age) {
-    this.name = name;
-    this.age = age;
-    this.greet = function() {
-        console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
-    };
+  this.name = name;
+  this.age = age;
+  this.greet = function () {
+    console.log(
+      `Hello, my name is ${this.name} and I'm ${this.age} years old.`
+    );
+  };
 }
 
-const person = new Person('John', 30);
+const person = new Person("John", 30);
 person.greet(); // Output: Hello, my name is John and I'm 30 years old.
-
 ```
 
 ```js
 class Person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
 
-    greet() {
-        console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
-    }
+  greet() {
+    console.log(
+      `Hello, my name is ${this.name} and I'm ${this.age} years old.`
+    );
+  }
 }
 
-const person = new Person('John', 30);
+const person = new Person("John", 30);
 person.greet(); // Output: Hello, my name is John and I'm 30 years old.
-
 ```
 
 - key differences:
+
   - Classes provide a more structured way to define object blueprints compared to constructor functions.
   - Classes support inheritance, allowing one class to inherit properties and methods from another.
   - Classes have a more familiar syntax for developers coming from other programming languages.
@@ -5161,8 +5156,6 @@ bank.listCustomers(branch1, true);
 ### 3.3 Prepare for technical test
 
 ```js
-
-
 function sockMerchant(n, ar) {
   // Create an object to store the count of each color of socks
   let pairs = 0;
@@ -5176,7 +5169,7 @@ function sockMerchant(n, ar) {
     } else {
       sockColorsCount[color] = 1;
     }
-    console.log('sockColorsCount : ', sockColorsCount);
+    console.log("sockColorsCount : ", sockColorsCount);
   });
 
   return pairs;
@@ -5185,12 +5178,8 @@ function sockMerchant(n, ar) {
 const n = 7;
 const ar = [1, 2, 1, 2, 1, 3, 2];
 const pairs = sockMerchant(n, ar);
-console.log('The number of pairs is:', pairs);
-
-
+console.log("The number of pairs is:", pairs);
 ```
-
-
 
 ## Follow Me
 
