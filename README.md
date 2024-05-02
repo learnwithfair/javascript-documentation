@@ -25,12 +25,24 @@ Thanks for visiting my GitHub account!
 |            Roadmap             |
 | ![roadmap](images/roadmap.png) |
 
+## Mistakes
+
+|                                    |                                    |
+| :--------------------------------: | :--------------------------------: |
+|      ![roadmap](images/0.jpg)      |      ![roadmap](images/1.jpg)      |
+|      ![roadmap](images/2.jpg)      |      ![roadmap](images/3.jpg)      |
+|      ![roadmap](images/4.jpg)      |      ![roadmap](images/5.jpg)      |
+|      ![roadmap](images/6.jpg)      |      ![roadmap](images/7.jpg)      |
+| ![roadmap](images/simple-code.jpg) | ![roadmap](images/status-code.jpg) |
+
 ## Table of Contents
 
 1. [Basic Javascript Topics](#1-basic-javascript-topics)
 
    [1.1 Introduction to Javascript](#11-introduction-to-javascript)
+
    [1.2 Output Console Object & comment](#12-output--comment)
+
    [1.3 Tokens - variables, data types, operators](#13-tokens)
 
    [1.4 Control Flow](#14-control-statement)
